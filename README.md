@@ -42,6 +42,14 @@ business-dashboard/
 
 └── README.md
 
+## Database
+
+Database dump file is included in this repository:
+
+Dump20260617.sql
+
+Import the SQL file into MySQL before running the project.
+
 ## Setup Instructions
 
 ### 1. Clone Repository
