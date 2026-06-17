@@ -78,10 +78,6 @@ Open index.html using Live Server in VS Code.
 * Creating interactive charts using Chart.js
 * Managing and visualizing business data efficiently
 
-## Project Screenshot
-
-(Add your uploaded dashboard screenshot here)
-
 ## Author
 
 Shambhavi Gupta
