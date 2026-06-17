@@ -4,40 +4,85 @@ A full-stack Business Dashboard built using FastAPI, MySQL, HTML, Bootstrap and 
 
 ## Features
 
-- Business Analytics Dashboard
-- Total Businesses Count
-- Total Cities Count
-- Total Categories Count
-- Add Business Functionality
-- Search Businesses by City and Category
-- Category-wise Bar Chart
-- City-wise Pie Chart
-- REST APIs using FastAPI
-- MySQL Database Integration
+* Dashboard analytics with summary cards
+* Total Businesses, Total Cities and Total Categories count
+* Businesses by Category bar chart
+* Businesses by City pie chart
+* Add new business records
+* Search businesses by city and category
+* REST API integration using FastAPI
+* MySQL database connectivity
 
-## Technologies Used
+## Tech Stack
 
-- Python
-- FastAPI
-- MySQL
-- HTML
-- Bootstrap
-- JavaScript
-- Chart.js
+### Backend
+
+* Python
+* FastAPI
+* MySQL
+
+### Frontend
+
+* HTML
+* Bootstrap 5
+* JavaScript
+* Chart.js
 
 ## Project Structure
 
-backend/
-frontend/
-scripts/
-business_data.csv
+business-dashboard/
+
+├── backend/
+
+├── frontend/
+
+├── scripts/
+
+├── business_data.csv
+
+└── README.md
+
+## Setup Instructions
+
+### 1. Clone Repository
+
+git clone https://github.com/guptashambhavi-930/business-dashboard.git
+
+### 2. Install Dependencies
+
+pip install fastapi uvicorn mysql-connector-python pandas
+
+### 3. Start Backend
+
+cd backend
+
+python -m uvicorn main:app --reload
+
+### 4. Run Frontend
+
+Open index.html using Live Server in VS Code.
+
+## API Endpoints
+
+* GET /businesses
+* GET /total-count
+* GET /city-count
+* GET /category-count
+* GET /filter
+* POST /add-business
+
+## Challenges Faced
+
+* Connecting FastAPI with MySQL database
+* Integrating frontend with backend APIs
+* Creating interactive charts using Chart.js
+* Managing and visualizing business data efficiently
+
+## Project Screenshot
+
+(Add your uploaded dashboard screenshot here)
 
 ## Author
 
 Shambhavi Gupta
-## Project Screenshot
-
-![Dashboard](Screenshot%202026-06-17%20124158.png)
-## Project Screenshot
-
-![Dashboard](Screenshot%202026-06-17%20124015.png)
+BCA (DS & AI)
