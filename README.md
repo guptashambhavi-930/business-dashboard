@@ -35,3 +35,9 @@ business_data.csv
 ## Author
 
 Shambhavi Gupta
+## Project Screenshot
+
+![Dashboard](Screenshot%202026-06-17%20124158.png)
+## Project Screenshot
+
+![Dashboard](Screenshot%202026-06-17%20124015.png)
